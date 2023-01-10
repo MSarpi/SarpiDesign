@@ -421,6 +421,31 @@ main{
   
 }
 
+@media (max-width:378px){
+  .presentacion-1{
+    height: 20px;
+    font-size: 40px;
+    color: rgb(193, 193, 193);
+    text-align: center;
+  }
+  
+  .presentacion-2{
+    font-size: 40px;
+    color: rgb(193, 193, 193);
+    text-align: center;
+    
+  }
+  
+  .subtitulo{
+    padding-left: 0rem;
+    font-size: 23px;
+  }
+
+  .img-portada{
+    width: 100%;
+  }
+}
+
 @media (max-width:375px){
   .presentacion-1{
     height: 20px;
