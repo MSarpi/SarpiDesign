@@ -406,6 +406,16 @@ main{
   }
 }
 
+@media (max-width:386px){
+  .subtitulo{
+    padding-left: 0rem;
+  }
+
+  .img-portada{
+    width: 90%;
+  }
+}
+
 @media (max-width:375px){
   .presentacion-1{
     height: 20px;
