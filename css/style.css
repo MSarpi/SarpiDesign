@@ -33,6 +33,11 @@
   padding: 1rem;
 }
 
+.miss{ 
+  border-radius: 0.5rem; 
+  padding: 1rem;
+}
+
 p{
   color: aliceblue;
 }
