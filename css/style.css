@@ -320,6 +320,11 @@ main{
   .img_portada{
     text-align: center;
   }
+
+  .tarjeta_project{
+    display: flex;
+    justify-content: center !important;
+  }
 }
 
 @media (max-width:812px) {
