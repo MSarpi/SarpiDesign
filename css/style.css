@@ -409,7 +409,8 @@ main{
 
 @media (max-width:425px){
   .subtitulo{
-    padding-left: 0rem;
+    padding-left: 1rem;
+    font-size: 20px;
   }
 
   .img-portada{
