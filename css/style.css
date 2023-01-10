@@ -396,6 +396,17 @@ main{
   }
 }
 
+@media (max-width:460px) {
+  .subtitulo{
+    padding-left: 2rem;
+  }
+
+  .img-portada{
+    width: 80%;
+  }
+}
+
+
 @media (max-width:425px){
   .subtitulo{
     padding-left: 1rem;
