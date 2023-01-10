@@ -414,6 +414,11 @@ main{
   .img-portada{
     width: 90%;
   }
+  .subtitulo{
+    padding-left: 0rem;
+    font-size: 24px;
+  }
+  
 }
 
 @media (max-width:375px){
