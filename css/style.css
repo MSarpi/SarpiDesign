@@ -55,6 +55,16 @@ h3{
   transition: 0.8s;
 }
 
+#font_owesome{
+  color: white !important; 
+  font-size:2.4rem;
+}
+
+#font_owesome:hover{
+  transform: scale(1.30);
+  transition: all 1s ease;
+}
+
 #btn_misproyectos{
   background: linear-gradient(to right, #ae6446, #c53838);
   border-color: #ae6446;
