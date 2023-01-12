@@ -293,6 +293,10 @@ main{
 }
 
 @media (max-width:991px){
+  #tarjeta_project{
+    margin-left: 2rem;
+  }
+
   #responsive_pc{
     display: none;
   }
