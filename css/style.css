@@ -77,6 +77,18 @@ h3{
   transition: all 1s ease;
 }
 
+#miformulario{
+  background: linear-gradient(to right, #ae6446, #c53838);
+  border-color: #ae6446;
+  color: aliceblue;
+}
+
+#miformulario:hover{
+  box-shadow: 1px 1px 11px 5px;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
 
 #tarjeta_skill:hover{
   box-shadow: 1px 1px 11px 5px;
