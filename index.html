@@ -25,39 +25,35 @@
   <script src="https://kit.fontawesome.com/3742402539.js" crossorigin="anonymous"></script>
 </head>
 <body cz-shortcut-listen="true" style="background-color: black;">
-  <!-- <header>
+  <header>
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">SarpiDesign</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mx-auto" style="text-align: right;">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#sobre_mi">Sobre mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#miskills">Mis Habilidades</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown link
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#misproyectos">Mis Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contactame</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  </header> -->
+  </header>
 <main  role="main">
 
 <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -151,7 +147,8 @@
   <br>
   <div class="row featurette">
     <p></p>
-    <div>
+    <div id="miskills"></div>
+    <div style="margin: 1rem;">
       <h2 class="sobre_mi_titulo" style="color: #C1C1C1"><strong>Mis Skills</strong></h2>
       <div class="division"></div>
     </div>
@@ -317,7 +314,8 @@
   <br>
   <div class="row featurette">
     <p></p>
-    <div>
+    <div id="misproyectos"></div>
+    <div style="margin: 1rem;">
       <h2 class="sobre_mi_titulo" style="color: #C1C1C1"><strong>Mis Trabajos</strong></h2>
       <div class="division"></div>
     </div>
@@ -573,13 +571,14 @@
   <p></p>
   <br>
   <br>
-  <div>
-    <h2 class="sobre_mi_titulo" style="color: #C1C1C1"><strong>Contactame!</strong></h2>
+  <div style="margin: 1rem;">
+    <h2 class="sobre_mi_titulo" style="color: #C1C1C1"><strong>Contactame</strong></h2>
     <div class="division"></div>
   </div>
+  <div id="contacto"></div>
   <br>
-  <div class="mx-auto app-login-box col-sm-12 col-md-10 col-lg-9">
-    <div style="padding: 1rem; border-radius: 1rem; background-color: #212529;" >
+  <div>
+    <div style="margin: 1rem; padding: 1rem; border-radius: 1rem; background-color: #212529;" >
       <div class="app-logo"></div>
       <h4 style="color: white;">
         <center>
@@ -605,7 +604,7 @@
           </div>
           <div class="col-md-6">
             <div class="position-relative mb-3">
-                <textarea placeholder="Nombre (Personal o Empresa)"  class="form-control" id="textarea" name="textarea" rows="3" required></textarea>
+                <textarea placeholder="¿Por que quieres contactarme?"  class="form-control" id="textarea" name="textarea" rows="3" required></textarea>
             </div>
           </div>
           <br>
@@ -614,6 +613,26 @@
           </div>
         </form>
       </center>
+      <br>
+      <h4 style="color: white;">
+        <center>
+          <div>Otras formas de Contactarme:</div>
+        </center>
+      </h4>
+      <br>
+      <center>
+        <div class="redes">
+          <div class="row" class="redes-sociales-ul">
+            <div class="col-lg-2"><li class="redes-sociales-li"><a href="https://www.facebook.com/miguel.sarpi/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li></div>
+            <div class="col-lg-2"><li class="redes-sociales-li"><a href="https://www.instagram.com/jinsei_ilustrador/?hl=es-la" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li></div>
+            <div class="col-lg-2"><li class="redes-sociales-li"><a href="https://api.whatsapp.com/send?phone=56957326432&text=Hola!%20vengo%20de%20tu%20pagina%20web" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li></div>
+            <div class="col-lg-2"><li class="redes-sociales-li"><a href="https://www.linkedin.com/in/miguel-sarpi-69206b198/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li></div>
+            <div class="col-lg-2"><li class="redes-sociales-li"><a href="mailto:example.sarpi@gmail.com" class="gmail"><i class="fab fa-google"></i></a></li></div>
+            <div class="col-lg-2"><li class="redes-sociales-li"><a href="https://github.com/MSarpi?tab=repositories" target="_blank" class="github"><i class="fa-brands fa-github"></i></a></li></div>
+          </div>
+        </div>
+      </center>
+      <br>
     </div>
   <br>
     <!-- Modal -->
@@ -649,9 +668,8 @@
 <!-- FOOTER -->
 <br>
 <footer class="container">
-  <p class="float-end"><a href="#">Back to top</a></p>
-  <p>© 2017–2022 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-</footer>
+  
+  <p>© 2019–2023 SarpiDesign</p>
 </main>
 
     <!--JAVASCRIPT-->
