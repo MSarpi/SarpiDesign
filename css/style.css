@@ -42,10 +42,7 @@
   padding: 1rem;
 }
 
-.miss{ 
-  border-radius: 0.5rem; 
-  padding: 1rem;
-}
+
 
 p{
   color: aliceblue;
@@ -53,15 +50,6 @@ p{
 
 h3{
   color: aliceblue !important;
-}
-
-#tarjeta_skill{
-  background: #212529;
-  color: #fd7e14;
-  border-radius: 1rem; 
-  margin-left: 0.7rem; 
-  padding: 1rem;
-  transition: 0.8s;
 }
 
 #font_owesome{
@@ -98,8 +86,14 @@ h3{
   transition: all 1s ease;
 }
 
+#tarjeta_skills{
+  margin-bottom: 1.5rem;
+  background: #212529;
+  color: #9f9f9f;
+  border-radius: 2rem;
+}
 
-#tarjeta_skill:hover{
+#tarjeta_skills:hover{
   box-shadow: 1px 1px 11px 5px;
   transform: scale(1.03);
   transition: all 1s ease;
