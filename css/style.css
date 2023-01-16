@@ -21,11 +21,12 @@
 }
 
 #loading-screen {
+  justify-content: center;
   background-color: rgba(25,25,25,0.7);
   height: 100%;
   width: 100%;
   position: fixed;
-  z-index: 9999;
+  z-index: 1;
   margin-top: 0;
   top: 0;
   text-align: center;
