@@ -360,9 +360,6 @@ main{
 }
 
 @media (max-width:991px){
-  #tarjeta_project{
-    margin-left: 1.6rem;
-  }
 
   #responsive_pc{
     display: none;
@@ -417,6 +414,19 @@ main{
   .tarjeta_project{
     display: flex;
     justify-content: center !important;
+  }
+
+  #tarjeta_project{
+    margin-left: 1.6rem;
+  }
+
+  .tarjeta_skills{
+    display: flex;
+    justify-content: center !important;
+  }
+
+  #tarjeta_skills{
+    margin-left: 1.6rem;
   }
 }
 
