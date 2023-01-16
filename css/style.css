@@ -20,6 +20,25 @@
   clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 96%, 0 90%);
 }
 
+#loading-screen {
+  background-color: rgba(25,25,25,0.7);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  margin-top: 0;
+  top: 0;
+  text-align: center;
+}
+#loading-screen img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-top: -50px;
+  margin-left: -50px;
+  top: 50%;
+}
+
 #responsive_movile{
   display: none;
 }

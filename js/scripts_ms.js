@@ -1,4 +1,7 @@
 function formulario(){
+	var screen = $('#loading-screen');
+    configureLoadingScreen(screen);
+
 	var gmail = document.getElementById('email').value;
 	var nom = document.getElementById('name').value;
 	var text = document.getElementById('textarea').value;
@@ -50,6 +53,16 @@ function formulario(){
 		$('#body_modal_header').html('<p>'+error+'</p>');
 		$('#exampleModal').modal('show');
 	}
+}
+
+function configureLoadingScreen(screen){
+    $(document)
+        .ajaxStart(function () {
+            screen.fadeIn();
+        })
+        .ajaxStop(function () {
+            screen.fadeOut();
+        });
 }
 
 function reload(){
