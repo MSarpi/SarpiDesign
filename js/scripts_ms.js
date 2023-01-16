@@ -7,17 +7,17 @@ function formulario(){
 
 	if (gmail == "") {
 		val = 1;
-		error += '<p style="margin: 0 0 0 5rem"><i style="color:red; margin-right: 10px;" class="fas fa-times"></i>Ingrese su <span style="color: #ff9065;">correo</span></p>';
+		error += '<p style="margin: 0 0 0 5rem"><i style="color:red; margin-right: 10px;" class="fas fa-times"></i>Ingrese su <span style="color: #ff9065;">Correo</span></p>';
 	}
 
 	if (nom == "") {
 		val = 1;
-		error += '<p style="margin: 0 0 0 5rem"><i style="color:red; margin-right: 10px;" class="fas fa-times"></i>Ingrese su <span style="color: #ff9065;">nombre</span> o <span style="color: #ff9065;">empresa</span></p>';
+		error += '<p style="margin: 0 0 0 5rem"><i style="color:red; margin-right: 10px;" class="fas fa-times"></i>Ingrese su <span style="color: #ff9065;">Nombre</span> o <span style="color: #ff9065;">Empresa</span></p>';
 	}
 
 	if (text == "") {
 		val = 1;
-		error += '<p style="margin: 0 0 0 5rem"><i style="color:red; margin-right: 10px;" class="fas fa-times"></i>Ingrese su <span style="color: #ff9065;">texto</span></p>';
+		error += '<p style="margin: 0 0 0 5rem"><i style="color:red; margin-right: 10px;" class="fas fa-times"></i>Ingrese un <span style="color: #ff9065;">Mensaje</span></p>';
 	}
 
 	if (val == 0) {
@@ -45,7 +45,7 @@ function formulario(){
 			}
 		});
 	}else{
-		alert(JSON.stringify(error));
+		//alert(JSON.stringify(error));
 		$('#titulo_modal_header').html('<h5>Falta Rellenar Campos</h5>');
 		$('#body_modal_header').html('<p>'+error+'</p>');
 		$('#exampleModal').modal('show');
