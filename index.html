@@ -5,10 +5,10 @@
   <meta name="author" content="Miguel Sarpi">
   <meta name="generator" content="Hugo 0.108.0">
   <title>SarpiDesign - Portafolio</title>
-  
+  <link rel="stylesheet" href="./css/aos.css">
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -67,7 +67,7 @@
       <div id="particles-js"></div>
       <section class="portada-grid">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-right">
             <div class="presentacion_portada">
               <h3 class="presentacion-1"><strong>¡Hola! Soy</strong></h3><br>
               <h2 class="presentacion-2"><strong>Miguel</strong> <span><strong>Sarpi</strong></span></h2><br>
@@ -79,7 +79,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-left">
             <div class="img_portada">
               <img class="img-portada" src="assest/img/miskill.png" alt="rabbitdesign">
             </div>
@@ -95,10 +95,10 @@
   
   <!-- START THE FEATURETTES -->
 
-  <div class="smi">
+  <div class="smi" data-aos="fade-down">
     <div class="row featurette">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12" >
           <p></p>
           <h2 class="sobre_mi_titulo" style="color: #C1C1C1"><strong>Sobre mi</strong></h2>
           <div class="division"></div>
@@ -159,7 +159,7 @@
     <p></p>
     <p></p>
     <div class="row" style="justify-content: center; margin-right: 0 !important;">
-      <div class="col-lg-4">
+      <div class="col-lg-4" data-aos="fade-up-right">
         <div class="card"  id="tarjeta_skills">
           <div class="card-body">
             <center>
@@ -186,7 +186,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4" data-aos="flip-right">
         <div class="card"  id="tarjeta_skills">
           <div class="card-body">
               <center>
@@ -214,7 +214,7 @@
         </div>
       </div> 
 
-      <div class="col-lg-4">
+      <div class="col-lg-4" data-aos="fade-up-left">
         <div class="card"  id="tarjeta_skills">
           <div class="card-body">
             <center>
@@ -260,7 +260,7 @@
     <p></p>
     <p></p>
     <div class="row" style="justify-content: center;">
-      <div class="col-lg-4">
+      <div class="col-lg-4" data-aos="fade-down-right">
         <div class="card" id="tarjeta_project">
           <img src="assest/img/mivoz.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -335,7 +335,7 @@
         </div>
       </div>
      
-      <div class="col-lg-4">
+      <div class="col-lg-4" data-aos="flip-up">
         <div class="card" id="tarjeta_project">
           <img src="assest/img/mastrasporte.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -423,7 +423,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4" data-aos="fade-down-left">
         <div class="card" id="tarjeta_project">
           <img src="assest/img/rabbits.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -448,7 +448,7 @@
     <p></p>
     <br>
     <div class="row" style="justify-content: center; margin-right: 0 !important;">
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-up-right">
         <div class="card"  id="tarjeta_project">
           <img src="assest/gif/tloz.gif" class="card-img-top" alt="...">
           <div class="card-body">
@@ -470,7 +470,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-up-left">
         <div class="card"  id="tarjeta_project">
           <img src="assest/gif/si.gif" class="card-img-top" alt="...">
           <div class="card-body">
@@ -503,7 +503,7 @@
   </div>
   <div id="contacto"></div>
   <br>
-  <div>
+  <div data-aos="zoom-in-up">
     <div style="margin: 1rem; padding: 1rem; border-radius: 1rem; background-color: #212529;" >
       <div class="app-logo"></div>
       <h4 style="color: white;">
@@ -601,8 +601,11 @@
     <!--JAVASCRIPT-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-        </script>
+        AOS.init({
+          duration: 1000 
+        });
+    </script>
+        <script src="./js/aos.js"></script>
         <script src="js/jquery-3.6.3.min.js"></script>  
         <script src="./js/sweetalert2@11.js"></script>
         <script src="./js/toastr.js"></script>
