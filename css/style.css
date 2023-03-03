@@ -9,6 +9,11 @@
   --github: #ff851b;
 }
 
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 #particles-js{
   position: absolute;
   top: 0;
